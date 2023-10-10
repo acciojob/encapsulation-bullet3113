@@ -9,9 +9,9 @@ public class Main {
     //  The field RWOnly.data is not visible
 
     // setting value 10 
-    obj.setter(10);
+    obj.setName("Ram");
 
     // getting the data back
-    System.out.println(obj.getter());
+    System.out.println(obj.getName());
   }
 }
